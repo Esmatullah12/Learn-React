@@ -1,7 +1,13 @@
+*,*::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .expenses{
     background-color: #393646;
     padding: 20px;
     border-radius: 20px;
     width: 70%;
     margin: 20px auto;    
-}
+} 

@@ -1,0 +1,13 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.new-expense-container{
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #424550;
+}

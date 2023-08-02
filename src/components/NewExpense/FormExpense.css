@@ -1,0 +1,37 @@
+.new-expense__controls{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+label{
+    font-size: 1.3rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    
+}
+
+input{
+    margin: 10px 0;
+    border: none;
+    width: 80%;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 8px;
+}
+.new-expense__action{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submit-btn{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-family: "DM sans", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px 90px 30px 30px;
+}
